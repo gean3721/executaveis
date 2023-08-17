@@ -1,9 +1,9 @@
 # Caminho para o arquivo .ini
-caminho_arquivo = r'C:\Users\gean5555\Desktop\teste.ini'
+caminho_arquivo = r'C:\Nanjing Swansoft\SSCNC\common\tmp\user.ini'
 
 # Nome que você deseja substituir
-nome_antigo = 'NOME_DO_SERVER'
-novo_nome = 'SERVER_CNC'
+nome_antigo = '187.95.112.221'
+novo_nome = 'cncserver.sistemafiep.org.br'
 
 # Lê o conteúdo do arquivo
 with open(caminho_arquivo, 'r') as arquivo:
